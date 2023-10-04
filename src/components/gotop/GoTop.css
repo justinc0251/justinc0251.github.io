@@ -1,0 +1,31 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.arrow-icon {
+  display: flex;
+  background-color: #ffffff;
+  transition-property: all;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  border-width: 1px;
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  font-size: 1.5rem;
+}
+
+.arrow-icon:hover {
+  transform: scaleX(var(--transform-scale-x, 1.1)) scaleY(var(--transform-scale-y, 1.1));
+}
+
+.bx-up-arrow-alt {
+  font-size: 1.5rem;
+  color: #000000;
+}
