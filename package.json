@@ -1,7 +1,7 @@
 {
   "name": "justinc0251.github.io",
   "version": "0.1.0",
-  "homepage": "https://justinc0251.github.io",
+  "homepage": "https://justinc0251.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
